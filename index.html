@@ -13569,7 +13569,7 @@ developer</code></pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Preliminary"><strong>Preliminary</strong><a class="anchor-link" href="#Preliminary">&#182;</a></h4><p>Let's start by comparing some relevant metrics against the popularity of the associated visual novel. Here, we can plot the number of languages a visual novel has been translated into versus how popular the visual novel is. We'll only be looking at visual novels with a popularity of 20 (out of 100) or greater to reduce extraneous data shown. The scatterplot data can be a bit difficult to interpret, we we'll overlay a linear regression line as well.</p>
+<h4 id="Preliminary"><strong>Preliminary</strong><a class="anchor-link" href="#Preliminary">&#182;</a></h4><p>Let's start by comparing some relevant metrics against the popularity of the associated visual novel. Here, we can plot the number of languages a visual novel has been translated into versus how popular the visual novel is. The scatterplot data can be a bit difficult to interpret, so we'll take the log of <code>c_votecount</code> to organize the data while preserving correlation, and overlay a regression line as well.</p>
 
 </div>
 </div>
